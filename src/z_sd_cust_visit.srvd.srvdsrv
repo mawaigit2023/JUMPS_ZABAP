@@ -1,0 +1,4 @@
+@EndUserText.label: 'CUST VISIT'
+define service Z_SD_CUST_VISIT {
+  expose ZI_CUST_VISIT;
+}

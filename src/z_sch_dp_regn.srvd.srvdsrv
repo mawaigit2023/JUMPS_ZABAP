@@ -1,0 +1,4 @@
+@EndUserText.label: 'Schedule vs Dispatch'
+define service Z_SCH_DP_REGN {
+  expose ZI_SCD_DP_DATAN;
+}

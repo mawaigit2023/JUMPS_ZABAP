@@ -1,0 +1,39 @@
+@Metadata.layer: #CORE
+@UI: {
+  headerInfo: { typeName: 'Customer Visit Data',
+                typeNamePlural: 'Customer Visit Data',
+                title: { type: #STANDARD, label: 'Travel', value: 'werks' } }
+              }
+annotate view zi_cust_visit
+    with 
+{
+
+  @UI.facet: [ { id:              'Travel',
+                 purpose:         #STANDARD,
+                 type:            #IDENTIFICATION_REFERENCE,
+                 label:           'Customer Visit Data',
+                 position:        10 } ]
+
+  @UI: {  lineItem:       [ { position: 10 } ],
+          identification: [ { position: 10 } ],
+          selectionField: [ { position: 10 } ] }
+  @EndUserText.label: 'Plant'
+  werks;
+  
+  @UI: { lineItem:       [ { position: 20 } ], identification: [ { position: 20 } ] }
+  @EndUserText.label: 'Visit Date'
+  visit_date;  
+
+  @UI: { lineItem:       [ { position: 30 } ], identification: [ { position: 30 } ] }
+  @EndUserText.label: 'Customer'
+  customer; 
+
+  @UI: { lineItem:       [ { position: 40 } ], identification: [ { position: 40 } ] }
+  @EndUserText.label: 'Currency'
+  curr; 
+  
+  @UI: { lineItem:       [ { position: 40 } ], identification: [ { position: 40 } ] }
+  @EndUserText.label: 'Total Charges'
+  total_charges; 
+          
+}

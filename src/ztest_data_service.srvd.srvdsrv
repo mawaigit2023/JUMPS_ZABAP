@@ -1,0 +1,4 @@
+@EndUserText.label: 'ZTEST_DATA_SERVICE'
+define service ZTEST_DATA_SERVICE {
+  expose ZI_TEST_DATA;
+}

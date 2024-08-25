@@ -1,0 +1,4 @@
+@EndUserText.label: 'Main Store'
+define service Z_SD_MAIN_STORE {
+  expose ZI_MAIN_STORE_STOCK;
+}

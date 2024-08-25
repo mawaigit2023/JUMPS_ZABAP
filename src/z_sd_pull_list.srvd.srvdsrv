@@ -1,0 +1,4 @@
+@EndUserText.label: 'Pull List'
+define service Z_SD_PULL_LIST {
+  expose ZI_PULL_LIST_REPORT;
+}

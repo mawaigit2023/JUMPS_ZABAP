@@ -1,0 +1,4 @@
+@EndUserText.label: 'Location qty'
+define service Z_SD_SLOCQTY {
+  expose ZI_SUM_SLOC_QTY;
+}

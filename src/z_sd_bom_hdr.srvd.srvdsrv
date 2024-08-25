@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service binding for BOM HEADER'
+define service Z_SD_bom_hdr {
+  expose ZI_BOM_HEADER;
+}

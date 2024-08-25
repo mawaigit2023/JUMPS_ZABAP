@@ -1,0 +1,4 @@
+@EndUserText.label: 'Full data'
+define service Z_SD_FULL_DATA {
+  expose ZI_FULL_LIST_DATA;
+}

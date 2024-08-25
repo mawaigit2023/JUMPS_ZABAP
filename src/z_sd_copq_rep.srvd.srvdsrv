@@ -1,0 +1,4 @@
+@EndUserText.label: 'COPQ SD'
+define service Z_SD_COPQ_REP {
+  expose ZI_COPQ_FINAL;
+}
